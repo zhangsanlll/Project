@@ -53,7 +53,7 @@ public class Utils {
         //                                /test02-17453034.png
         //屏幕截图
         SimpleDateFormat sim1 = new SimpleDateFormat("yyyy-MM-dd");
-        SimpleDateFormat sim2 = new SimpleDateFormat("HH:mm:ss:SS");
+        SimpleDateFormat sim2 = new SimpleDateFormat("HHmmssSS");
         String dirTime = sim1.format(System.currentTimeMillis());
         String fileTime = sim2.format(System.currentTimeMillis());
         //./src/test/image/2024-07-17/test01-17453020.png
