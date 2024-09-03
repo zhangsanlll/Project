@@ -2,4 +2,4 @@
 #可进行多平台的文件配置，只需要在主yml文件中定义选择哪个配置文件即可
 spring:
   profiles:
-    active: prod
+    active: dev

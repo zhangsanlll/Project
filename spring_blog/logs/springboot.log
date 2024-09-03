@@ -1,243 +1,136 @@
-2024-08-25T15:18:05.284+08:00  INFO 12796 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 12796 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
-2024-08-25T15:18:05.292+08:00  INFO 12796 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "dev"
-2024-08-25T15:18:06.462+08:00  INFO 12796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-25T15:18:06.473+08:00  INFO 12796 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-25T15:18:06.478+08:00  INFO 12796 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-25T15:18:06.568+08:00  INFO 12796 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-25T15:18:06.569+08:00  INFO 12796 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1221 ms
-2024-08-25T15:18:07.301+08:00  INFO 12796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-25T15:18:07.311+08:00  INFO 12796 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.561 seconds (process running for 3.072)
-2024-08-25T15:18:10.893+08:00  INFO 12796 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-25T15:18:10.894+08:00  INFO 12796 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-25T15:18:10.895+08:00  INFO 12796 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-08-25T15:18:19.857+08:00  INFO 12796 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:18:19.870+08:00  INFO 12796 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:18:25.160+08:00  INFO 12796 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T15:25:31.276+08:00  INFO 12796 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:25:31.277+08:00  INFO 12796 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:25:34.524+08:00  INFO 11356 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 11356 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
-2024-08-25T15:25:34.527+08:00  INFO 11356 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "dev"
-2024-08-25T15:25:35.567+08:00  INFO 11356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-25T15:25:35.577+08:00  INFO 11356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-25T15:25:35.578+08:00  INFO 11356 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-25T15:25:35.652+08:00  INFO 11356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-25T15:25:35.653+08:00  INFO 11356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1082 ms
-2024-08-25T15:25:36.212+08:00  INFO 11356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-25T15:25:36.221+08:00  INFO 11356 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.12 seconds (process running for 2.466)
-2024-08-25T15:25:44.692+08:00  INFO 11356 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-25T15:25:44.692+08:00  INFO 11356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-25T15:25:44.693+08:00  INFO 11356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-08-25T15:25:45.389+08:00  INFO 11356 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:25:45.400+08:00  INFO 11356 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:25:50.178+08:00  INFO 11356 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:25:50.179+08:00  INFO 11356 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:26:20.178+08:00  INFO 17888 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 17888 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
-2024-08-25T15:26:20.181+08:00  INFO 17888 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "dev"
-2024-08-25T15:26:21.181+08:00  INFO 17888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-25T15:26:21.198+08:00  INFO 17888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-25T15:26:21.198+08:00  INFO 17888 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-25T15:26:21.259+08:00  INFO 17888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-25T15:26:21.259+08:00  INFO 17888 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1035 ms
-2024-08-25T15:26:21.795+08:00  INFO 17888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-25T15:26:21.804+08:00  INFO 17888 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.049 seconds (process running for 2.366)
-2024-08-25T15:26:26.647+08:00  INFO 17888 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-25T15:26:26.648+08:00  INFO 17888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-25T15:26:26.650+08:00  INFO 17888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-08-25T15:26:27.175+08:00  INFO 17888 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:26:27.188+08:00  INFO 17888 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:26:31.584+08:00  INFO 17888 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T15:26:31.730+08:00  INFO 17888 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cbac948
-2024-08-25T15:26:31.731+08:00  INFO 17888 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-08-25T15:26:31.807+08:00 ERROR 17888 --- [http-nio-8080-exec-7] c.e.demo.controller.UserController       : password:123456
-2024-08-25T15:26:31.807+08:00 ERROR 17888 --- [http-nio-8080-exec-7] c.e.demo.controller.UserController       : userinfo.getPassword:d656a5722d1d4a71a63aec52f87ee2c64b5b6cd35da51b42db314e440b78e74c
-2024-08-25T15:34:29.232+08:00  INFO 17888 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-08-25T15:34:29.239+08:00  INFO 17888 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-08-25T15:34:31.707+08:00  INFO 15692 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 15692 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
-2024-08-25T15:34:31.709+08:00  INFO 15692 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "dev"
-2024-08-25T15:34:32.906+08:00  INFO 15692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-25T15:34:32.922+08:00  INFO 15692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-25T15:34:32.923+08:00  INFO 15692 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-25T15:34:33.025+08:00  INFO 15692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-25T15:34:33.025+08:00  INFO 15692 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1260 ms
-2024-08-25T15:34:33.767+08:00  INFO 15692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-25T15:34:33.777+08:00  INFO 15692 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.644 seconds (process running for 3.132)
-2024-08-25T15:35:35.554+08:00  INFO 15844 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 15844 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
-2024-08-25T15:35:35.557+08:00  INFO 15844 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "dev"
-2024-08-25T15:35:36.711+08:00  INFO 15844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-25T15:35:36.723+08:00  INFO 15844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-25T15:35:36.723+08:00  INFO 15844 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-25T15:35:36.822+08:00  INFO 15844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-25T15:35:36.823+08:00  INFO 15844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1214 ms
-2024-08-25T15:35:37.531+08:00  INFO 15844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-25T15:35:37.542+08:00  INFO 15844 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.528 seconds (process running for 2.976)
-2024-08-25T15:35:43.992+08:00  INFO 15844 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-25T15:35:43.992+08:00  INFO 15844 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-25T15:35:43.993+08:00  INFO 15844 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-08-25T15:35:53.536+08:00  INFO 15844 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T15:35:53.729+08:00  INFO 15844 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7715fc40
-2024-08-25T15:35:53.732+08:00  INFO 15844 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-08-25T15:35:53.824+08:00 ERROR 15844 --- [http-nio-8080-exec-3] c.e.demo.controller.UserController       : password:123456
-2024-08-25T15:35:53.824+08:00 ERROR 15844 --- [http-nio-8080-exec-3] c.e.demo.controller.UserController       : userinfo.getPassword:d656a5722d1d4a71a63aec52f87ee2c64b5b6cd35da51b42db314e440b78e74c
-2024-08-25T15:36:09.387+08:00 ERROR 15844 --- [http-nio-8080-exec-2] c.e.demo.controller.UserController       : password:1231
-2024-08-25T15:36:09.388+08:00 ERROR 15844 --- [http-nio-8080-exec-2] c.e.demo.controller.UserController       : userinfo.getPassword:d656a5722d1d4a71a63aec52f87ee2c64b5b6cd35da51b42db314e440b78e74c
-2024-08-25T15:37:12.319+08:00  INFO 15844 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-08-25T15:37:12.328+08:00  INFO 15844 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-08-25T15:37:14.348+08:00  INFO 13976 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 13976 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
-2024-08-25T15:37:14.351+08:00  INFO 13976 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "dev"
-2024-08-25T15:37:15.564+08:00  INFO 13976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-25T15:37:15.577+08:00  INFO 13976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-25T15:37:15.577+08:00  INFO 13976 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-25T15:37:15.665+08:00  INFO 13976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-25T15:37:15.665+08:00  INFO 13976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1263 ms
-2024-08-25T15:37:16.411+08:00  INFO 13976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-25T15:37:16.426+08:00  INFO 13976 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.565 seconds (process running for 3.064)
-2024-08-25T15:37:18.126+08:00  INFO 13976 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-25T15:37:18.126+08:00  INFO 13976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-25T15:37:18.127+08:00  INFO 13976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-08-25T15:37:27.779+08:00  INFO 13976 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:37:27.797+08:00  INFO 13976 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:37:33.531+08:00  INFO 13976 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T15:38:45.123+08:00  INFO 13976 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:38:45.123+08:00  INFO 13976 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:40:25.760+08:00  INFO 8560 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 8560 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
-2024-08-25T15:40:25.763+08:00  INFO 8560 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "dev"
-2024-08-25T15:40:27.011+08:00  INFO 8560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-25T15:40:27.023+08:00  INFO 8560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-25T15:40:27.023+08:00  INFO 8560 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-25T15:40:27.111+08:00  INFO 8560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-25T15:40:27.112+08:00  INFO 8560 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1291 ms
-2024-08-25T15:40:27.828+08:00  INFO 8560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-25T15:40:27.838+08:00  INFO 8560 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.601 seconds (process running for 3.084)
-2024-08-25T15:40:32.260+08:00  INFO 8560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-25T15:40:32.261+08:00  INFO 8560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-25T15:40:32.262+08:00  INFO 8560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-08-25T15:40:39.390+08:00  INFO 8560 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:40:39.404+08:00  INFO 8560 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:41:06.846+08:00  INFO 8560 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T15:41:07.016+08:00  INFO 8560 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6676ca24
-2024-08-25T15:41:07.017+08:00  INFO 8560 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-08-25T15:41:07.100+08:00 ERROR 8560 --- [http-nio-8080-exec-7] c.e.demo.controller.UserController       : password:123456
-2024-08-25T15:41:07.101+08:00 ERROR 8560 --- [http-nio-8080-exec-7] c.e.demo.controller.UserController       : userinfo.getPassword:d656a5722d1d4a71a63aec52f87ee2c64b5b6cd35da51b42db314e440b78e74c
-2024-08-25T15:43:10.373+08:00  INFO 8560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-08-25T15:43:10.383+08:00  INFO 8560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-08-25T15:43:12.613+08:00  INFO 11764 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 11764 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
-2024-08-25T15:43:12.616+08:00  INFO 11764 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "dev"
-2024-08-25T15:43:13.911+08:00  INFO 11764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-25T15:43:13.922+08:00  INFO 11764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-25T15:43:13.922+08:00  INFO 11764 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-25T15:43:13.995+08:00  INFO 11764 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-25T15:43:13.995+08:00  INFO 11764 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1322 ms
-2024-08-25T15:43:14.732+08:00  INFO 11764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-25T15:43:14.742+08:00  INFO 11764 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.756 seconds (process running for 3.247)
-2024-08-25T15:43:24.978+08:00  INFO 11764 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-25T15:43:24.978+08:00  INFO 11764 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-25T15:43:24.980+08:00  INFO 11764 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-08-25T15:43:37.927+08:00  INFO 11764 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:43:37.946+08:00  INFO 11764 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:44:13.957+08:00  INFO 11764 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T15:44:14.143+08:00  INFO 11764 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@175dbd4
-2024-08-25T15:44:14.145+08:00  INFO 11764 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-08-25T15:45:14.929+08:00  WARN 11764 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s786ms29µs).
-2024-08-25T15:45:14.930+08:00 ERROR 11764 --- [http-nio-8080-exec-7] c.e.demo.controller.UserController       : password:123456
-2024-08-25T15:45:14.930+08:00 ERROR 11764 --- [http-nio-8080-exec-7] c.e.demo.controller.UserController       : userinfo.getPassword:d656a5722d1d4a71a63aec52f87ee2c64b5b6cd35da51b42db314e440b78e74c
-2024-08-25T15:45:15.080+08:00  INFO 11764 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-08-25T15:45:15.129+08:00  INFO 11764 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-08-25T15:45:19.134+08:00  INFO 5912 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 5912 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
-2024-08-25T15:45:19.137+08:00  INFO 5912 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "dev"
-2024-08-25T15:45:20.530+08:00  INFO 5912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-25T15:45:20.541+08:00  INFO 5912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-25T15:45:20.541+08:00  INFO 5912 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-25T15:45:20.633+08:00  INFO 5912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-25T15:45:20.634+08:00  INFO 5912 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1441 ms
-2024-08-25T15:45:21.605+08:00  INFO 5912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-25T15:45:21.615+08:00  INFO 5912 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 3.068 seconds (process running for 3.539)
-2024-08-25T15:45:24.689+08:00  INFO 5912 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-25T15:45:24.689+08:00  INFO 5912 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-25T15:45:24.691+08:00  INFO 5912 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-08-25T15:45:33.766+08:00  INFO 5912 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:45:33.778+08:00  INFO 5912 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:45:34.510+08:00  INFO 5912 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T15:45:34.707+08:00  INFO 5912 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a630b0
-2024-08-25T15:45:34.709+08:00  INFO 5912 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-08-25T15:46:18.399+08:00  INFO 5912 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNDU3MTk0MCwiZXhwIjoxNzI0NTczNzQwfQ.k-vzE3yNanWRA-puP9D0dikyRfy7D0yZBd2BuX5gOMc
-2024-08-25T15:46:18.400+08:00  INFO 5912 --- [http-nio-8080-exec-9] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNDU3MTk0MCwiZXhwIjoxNzI0NTczNzQwfQ.k-vzE3yNanWRA-puP9D0dikyRfy7D0yZBd2BuX5gOMc
-2024-08-25T15:46:18.409+08:00  INFO 5912 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:46:18.410+08:00  INFO 5912 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:46:18.444+08:00  INFO 5912 --- [http-nio-8080-exec-9] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1724571940, exp=1724573740}
-2024-08-25T15:46:18.444+08:00  INFO 5912 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1724571940, exp=1724573740}
-2024-08-25T15:46:18.444+08:00  INFO 5912 --- [http-nio-8080-exec-9] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
-2024-08-25T15:46:18.444+08:00  INFO 5912 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
-2024-08-25T15:46:18.445+08:00  INFO 5912 --- [http-nio-8080-exec-4] c.e.demo.controller.UserController       : token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNDU3MTk0MCwiZXhwIjoxNzI0NTczNzQwfQ.k-vzE3yNanWRA-puP9D0dikyRfy7D0yZBd2BuX5gOMc
-2024-08-25T15:46:18.447+08:00  INFO 5912 --- [http-nio-8080-exec-4] c.e.demo.controller.UserController       : 当前用户userId:1
-2024-08-25T15:46:18.450+08:00  INFO 5912 --- [http-nio-8080-exec-4] c.e.demo.controller.UserController       : 打印UserInfo:{}UserInfo(id=1, password=d656a5722d1d4a71a63aec52f87ee2c64b5b6cd35da51b42db314e440b78e74c, userName=zhangsan, githubUrl=https://gitee.com/bubble-fish666/class-java45, deleteFlag=0, createTime=Sun Aug 04 16:33:54 CST 2024, updateTime=null)
-2024-08-25T15:46:23.886+08:00  INFO 5912 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNDU3MTk0MCwiZXhwIjoxNzI0NTczNzQwfQ.k-vzE3yNanWRA-puP9D0dikyRfy7D0yZBd2BuX5gOMc
-2024-08-25T15:46:23.888+08:00  INFO 5912 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNDU3MTk0MCwiZXhwIjoxNzI0NTczNzQwfQ.k-vzE3yNanWRA-puP9D0dikyRfy7D0yZBd2BuX5gOMc
-2024-08-25T15:46:23.888+08:00  INFO 5912 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:46:23.888+08:00  INFO 5912 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:46:23.893+08:00  INFO 5912 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1724571940, exp=1724573740}
-2024-08-25T15:46:23.893+08:00  INFO 5912 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1724571940, exp=1724573740}
-2024-08-25T15:46:23.893+08:00  INFO 5912 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
-2024-08-25T15:46:23.893+08:00  INFO 5912 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
-2024-08-25T15:46:23.895+08:00  INFO 5912 --- [http-nio-8080-exec-6] c.e.demo.controller.UserController       : 走到这里
-2024-08-25T15:46:23.904+08:00  INFO 5912 --- [http-nio-8080-exec-6] c.e.demo.controller.UserController       : 打印UserInfo(id=2, password=d656a5722d1d4a71a63aec52f87ee2c64b5b6cd35da51b42db314e440b78e74c, userName=lisi, githubUrl=https://gitee.com/bubble-fish666/class-java45, deleteFlag=0, createTime=Sun Aug 04 16:33:54 CST 2024, updateTime=null)
-2024-08-25T15:46:27.546+08:00  INFO 5912 --- [http-nio-8080-exec-9] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:46:27.547+08:00  INFO 5912 --- [http-nio-8080-exec-9] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:46:28.204+08:00  INFO 5912 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T15:46:28.204+08:00  INFO 5912 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T15:48:27.026+08:00  INFO 5912 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-08-25T15:48:27.035+08:00  INFO 5912 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-08-25T15:48:29.928+08:00  INFO 16168 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 16168 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
-2024-08-25T15:48:29.931+08:00  INFO 16168 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "prod"
-2024-08-25T15:48:30.934+08:00  INFO 16168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-25T15:48:30.944+08:00  INFO 16168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-25T15:48:30.944+08:00  INFO 16168 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-25T15:48:31.014+08:00  INFO 16168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-25T15:48:31.014+08:00  INFO 16168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1038 ms
-2024-08-25T15:48:31.662+08:00  INFO 16168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-25T15:48:31.672+08:00  INFO 16168 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.178 seconds (process running for 2.541)
-2024-08-25T15:52:10.069+08:00  INFO 3616 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 3616 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
-2024-08-25T15:52:10.073+08:00  INFO 3616 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "prod"
-2024-08-25T15:52:11.010+08:00  INFO 3616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-25T15:52:11.021+08:00  INFO 3616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-25T15:52:11.021+08:00  INFO 3616 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-25T15:52:11.092+08:00  INFO 3616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-25T15:52:11.093+08:00  INFO 3616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 980 ms
-2024-08-25T15:52:11.744+08:00  INFO 3616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-25T15:52:11.752+08:00  INFO 3616 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.123 seconds (process running for 2.454)
-2024-08-25T16:03:12.804+08:00  INFO 3616 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-25T16:03:12.805+08:00  INFO 3616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-25T16:03:12.806+08:00  INFO 3616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-08-25T16:03:12.872+08:00  INFO 3616 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T16:03:14.032+08:00  INFO 3616 --- [http-nio-8080-exec-1] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T16:03:14.037+08:00  INFO 3616 --- [http-nio-8080-exec-1] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T16:03:17.012+08:00  INFO 3616 --- [http-nio-8080-exec-3] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T16:03:17.013+08:00  INFO 3616 --- [http-nio-8080-exec-3] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T16:03:28.403+08:00  INFO 3616 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T16:03:29.413+08:00  INFO 3616 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T16:03:29.413+08:00  INFO 3616 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T16:03:38.261+08:00  INFO 15800 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 15800 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
-2024-08-25T16:03:38.263+08:00  INFO 15800 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "prod"
-2024-08-25T16:03:39.494+08:00  INFO 15800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-08-25T16:03:39.509+08:00  INFO 15800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-25T16:03:39.510+08:00  INFO 15800 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
-2024-08-25T16:03:39.575+08:00  INFO 15800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-25T16:03:39.576+08:00  INFO 15800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1260 ms
-2024-08-25T16:03:40.163+08:00  INFO 15800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-08-25T16:03:40.170+08:00  INFO 15800 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.501 seconds (process running for 3.137)
-2024-08-25T16:03:44.219+08:00  INFO 15800 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-25T16:03:44.220+08:00  INFO 15800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-08-25T16:03:44.220+08:00  INFO 15800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-08-25T16:03:44.344+08:00  INFO 15800 --- [http-nio-8080-exec-2] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T16:03:44.355+08:00  INFO 15800 --- [http-nio-8080-exec-2] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T16:03:54.627+08:00  INFO 15800 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T16:03:55.809+08:00  INFO 15800 --- [http-nio-8080-exec-3] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T16:03:55.809+08:00  INFO 15800 --- [http-nio-8080-exec-3] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T16:03:56.095+08:00  INFO 15800 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T16:03:57.113+08:00  INFO 15800 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T16:03:57.116+08:00  INFO 15800 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T16:03:57.116+08:00  INFO 15800 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T16:03:58.124+08:00  INFO 15800 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-08-25T16:03:58.127+08:00  INFO 15800 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T16:03:58.127+08:00  INFO 15800 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
-2024-08-25T16:03:59.139+08:00  INFO 15800 --- [http-nio-8080-exec-5] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
-2024-08-25T16:03:59.139+08:00  INFO 15800 --- [http-nio-8080-exec-5] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:20:28.537+08:00  INFO 18648 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 18648 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
+2024-09-01T21:20:28.546+08:00  INFO 18648 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "prod"
+2024-09-01T21:20:30.188+08:00  INFO 18648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-01T21:20:30.209+08:00  INFO 18648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-01T21:20:30.209+08:00  INFO 18648 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-01T21:20:30.282+08:00  INFO 18648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-01T21:20:30.283+08:00  INFO 18648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1673 ms
+2024-09-01T21:20:31.029+08:00  INFO 18648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-01T21:20:31.042+08:00  INFO 18648 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 3.055 seconds (process running for 3.505)
+2024-09-01T21:21:13.437+08:00  INFO 18648 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-01T21:21:13.437+08:00  INFO 18648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-01T21:21:13.438+08:00  INFO 18648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-01T21:21:27.848+08:00  INFO 18648 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:21:29.046+08:00  INFO 18648 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:21:29.054+08:00  INFO 18648 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:21:29.711+08:00  INFO 18648 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:21:30.718+08:00  INFO 18648 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:21:30.721+08:00  INFO 18648 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:21:30.721+08:00  INFO 18648 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:21:31.732+08:00  INFO 18648 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:21:31.734+08:00  INFO 18648 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:21:31.734+08:00  INFO 18648 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:21:32.747+08:00  INFO 18648 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:21:32.752+08:00  INFO 18648 --- [http-nio-8080-exec-1] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:21:32.752+08:00  INFO 18648 --- [http-nio-8080-exec-1] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:21:33.758+08:00  INFO 18648 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:21:33.761+08:00  INFO 18648 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:21:33.762+08:00  INFO 18648 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:21:34.778+08:00  INFO 18648 --- [http-nio-8080-exec-9] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:21:34.779+08:00  INFO 18648 --- [http-nio-8080-exec-9] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:21:46.172+08:00  INFO 18648 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:21:47.183+08:00  INFO 18648 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:21:47.185+08:00  INFO 18648 --- [http-nio-8080-exec-2] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:21:47.185+08:00  INFO 18648 --- [http-nio-8080-exec-2] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:21:48.187+08:00  INFO 18648 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:21:48.189+08:00  INFO 18648 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:21:48.189+08:00  INFO 18648 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:21:49.203+08:00  INFO 18648 --- [http-nio-8080-exec-3] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:21:49.203+08:00  INFO 18648 --- [http-nio-8080-exec-3] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:21:51.847+08:00  INFO 18648 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:21:52.853+08:00  INFO 18648 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:21:52.855+08:00  INFO 18648 --- [http-nio-8080-exec-5] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:21:52.856+08:00  INFO 18648 --- [http-nio-8080-exec-5] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:21:53.861+08:00  INFO 18648 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:21:53.864+08:00  INFO 18648 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:21:53.864+08:00  INFO 18648 --- [http-nio-8080-exec-7] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:21:54.877+08:00  INFO 18648 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:21:54.878+08:00  INFO 18648 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:22:13.971+08:00  INFO 18648 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:22:14.990+08:00  INFO 18648 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:22:14.990+08:00  INFO 18648 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:23:00.641+08:00  INFO 21584 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 21584 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
+2024-09-01T21:23:00.644+08:00  INFO 21584 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "dev"
+2024-09-01T21:23:01.732+08:00  INFO 21584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-01T21:23:01.740+08:00  INFO 21584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-01T21:23:01.741+08:00  INFO 21584 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-01T21:23:01.814+08:00  INFO 21584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-01T21:23:01.814+08:00  INFO 21584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1120 ms
+2024-09-01T21:23:02.435+08:00  INFO 21584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-01T21:23:02.444+08:00  INFO 21584 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.266 seconds (process running for 2.691)
+2024-09-01T21:23:08.438+08:00  INFO 21584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-01T21:23:08.438+08:00  INFO 21584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-01T21:23:08.439+08:00  INFO 21584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-01T21:23:08.550+08:00  INFO 21584 --- [http-nio-8080-exec-2] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:23:08.562+08:00  INFO 21584 --- [http-nio-8080-exec-2] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:23:13.778+08:00  INFO 21584 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-01T21:23:13.904+08:00  INFO 21584 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c31ff82
+2024-09-01T21:23:13.906+08:00  INFO 21584 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-01T21:23:14.466+08:00  INFO 21584 --- [http-nio-8080-exec-9] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:23:14.466+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:23:14.468+08:00  INFO 21584 --- [http-nio-8080-exec-1] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:23:14.468+08:00  INFO 21584 --- [http-nio-8080-exec-1] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:23:14.503+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1725196993, exp=1725198793}
+2024-09-01T21:23:14.503+08:00  INFO 21584 --- [http-nio-8080-exec-9] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1725196993, exp=1725198793}
+2024-09-01T21:23:14.504+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
+2024-09-01T21:23:14.504+08:00  INFO 21584 --- [http-nio-8080-exec-9] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
+2024-09-01T21:23:14.504+08:00  INFO 21584 --- [http-nio-8080-exec-9] c.e.demo.controller.UserController       : token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:23:14.506+08:00  INFO 21584 --- [http-nio-8080-exec-9] c.e.demo.controller.UserController       : 当前用户userId:1
+2024-09-01T21:23:14.515+08:00  INFO 21584 --- [http-nio-8080-exec-9] c.e.demo.controller.UserController       : 打印UserInfo:{}UserInfo(id=1, password=d656a5722d1d4a71a63aec52f87ee2c64b5b6cd35da51b42db314e440b78e74c, userName=zhangsan, githubUrl=https://gitee.com/bubble-fish666/class-java45, deleteFlag=0, createTime=Sun Aug 04 16:33:54 CST 2024, updateTime=null)
+2024-09-01T21:23:31.229+08:00  INFO 21584 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:23:31.232+08:00  INFO 21584 --- [http-nio-8080-exec-1] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:23:31.233+08:00  INFO 21584 --- [http-nio-8080-exec-1] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:23:31.233+08:00  INFO 21584 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1725196993, exp=1725198793}
+2024-09-01T21:23:31.233+08:00  INFO 21584 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
+2024-09-01T21:23:31.234+08:00  INFO 21584 --- [http-nio-8080-exec-8] c.e.demo.controller.UserController       : 走到这里
+2024-09-01T21:23:31.237+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:23:31.240+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1725196993, exp=1725198793}
+2024-09-01T21:23:31.240+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
+2024-09-01T21:23:31.241+08:00  INFO 21584 --- [http-nio-8080-exec-8] c.e.demo.controller.UserController       : 打印UserInfo(id=1, password=d656a5722d1d4a71a63aec52f87ee2c64b5b6cd35da51b42db314e440b78e74c, userName=zhangsan, githubUrl=https://gitee.com/bubble-fish666/class-java45, deleteFlag=0, createTime=Sun Aug 04 16:33:54 CST 2024, updateTime=null)
+2024-09-01T21:23:34.333+08:00  INFO 21584 --- [http-nio-8080-exec-9] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:23:34.333+08:00  INFO 21584 --- [http-nio-8080-exec-9] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:23:35.485+08:00  INFO 21584 --- [http-nio-8080-exec-3] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:23:35.485+08:00  INFO 21584 --- [http-nio-8080-exec-3] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:23:35.641+08:00  INFO 21584 --- [http-nio-8080-exec-5] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:23:35.641+08:00  INFO 21584 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:23:35.644+08:00  INFO 21584 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1725196993, exp=1725198793}
+2024-09-01T21:23:35.644+08:00  INFO 21584 --- [http-nio-8080-exec-5] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1725196993, exp=1725198793}
+2024-09-01T21:23:35.644+08:00  INFO 21584 --- [http-nio-8080-exec-4] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
+2024-09-01T21:23:35.644+08:00  INFO 21584 --- [http-nio-8080-exec-5] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
+2024-09-01T21:23:35.644+08:00  INFO 21584 --- [http-nio-8080-exec-4] c.e.demo.controller.UserController       : 走到这里
+2024-09-01T21:23:35.650+08:00  INFO 21584 --- [http-nio-8080-exec-4] c.e.demo.controller.UserController       : 打印UserInfo(id=2, password=d656a5722d1d4a71a63aec52f87ee2c64b5b6cd35da51b42db314e440b78e74c, userName=lisi, githubUrl=https://gitee.com/bubble-fish666/class-java45, deleteFlag=0, createTime=Sun Aug 04 16:33:54 CST 2024, updateTime=null)
+2024-09-01T21:23:37.523+08:00  INFO 21584 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:23:37.523+08:00  INFO 21584 --- [http-nio-8080-exec-6] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:31:08.426+08:00  INFO 21584 --- [http-nio-8080-exec-1] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:31:08.430+08:00  INFO 21584 --- [http-nio-8080-exec-1] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1725196993, exp=1725198793}
+2024-09-01T21:31:08.431+08:00  INFO 21584 --- [http-nio-8080-exec-1] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
+2024-09-01T21:31:08.431+08:00  INFO 21584 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:31:08.431+08:00  INFO 21584 --- [http-nio-8080-exec-1] c.e.demo.controller.UserController       : token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:31:08.434+08:00  INFO 21584 --- [http-nio-8080-exec-1] c.e.demo.controller.UserController       : 当前用户userId:1
+2024-09-01T21:31:08.434+08:00  INFO 21584 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1725196993, exp=1725198793}
+2024-09-01T21:31:08.435+08:00  INFO 21584 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
+2024-09-01T21:31:08.441+08:00  INFO 21584 --- [http-nio-8080-exec-1] c.e.demo.controller.UserController       : 打印UserInfo:{}UserInfo(id=1, password=d656a5722d1d4a71a63aec52f87ee2c64b5b6cd35da51b42db314e440b78e74c, userName=zhangsan, githubUrl=https://gitee.com/bubble-fish666/class-java45, deleteFlag=0, createTime=Sun Aug 04 16:33:54 CST 2024, updateTime=null)
+2024-09-01T21:31:08.443+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:31:08.444+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:31:14.404+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:31:14.407+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1725196993, exp=1725198793}
+2024-09-01T21:31:14.409+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
+2024-09-01T21:31:14.410+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.controller.UserController       : token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:31:14.413+08:00  INFO 21584 --- [http-nio-8080-exec-2] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：null
+2024-09-01T21:31:14.412+08:00  INFO 21584 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : 从header中获取token：eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6aGFuZ3NhbiIsImlhdCI6MTcyNTE5Njk5MywiZXhwIjoxNzI1MTk4NzkzfQ.WmJkrPjDAG3USmZUpyMdM1en7qsb_paI2IfOyY1J-4M
+2024-09-01T21:31:14.413+08:00  INFO 21584 --- [http-nio-8080-exec-2] c.e.demo.interceptor.LoginInterceptor    : 获取claims：null
+2024-09-01T21:31:14.413+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.controller.UserController       : 当前用户userId:1
+2024-09-01T21:31:14.419+08:00  INFO 21584 --- [http-nio-8080-exec-10] c.e.demo.controller.UserController       : 打印UserInfo:{}UserInfo(id=1, password=d656a5722d1d4a71a63aec52f87ee2c64b5b6cd35da51b42db314e440b78e74c, userName=zhangsan, githubUrl=https://gitee.com/bubble-fish666/class-java45, deleteFlag=0, createTime=Sun Aug 04 16:33:54 CST 2024, updateTime=null)
+2024-09-01T21:31:14.422+08:00  INFO 21584 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : 获取claims：{id=1, username=zhangsan, iat=1725196993, exp=1725198793}
+2024-09-01T21:31:14.422+08:00  INFO 21584 --- [http-nio-8080-exec-8] c.e.demo.interceptor.LoginInterceptor    : token验证成功，放行
+2024-09-01T21:34:31.209+08:00  INFO 21584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-01T21:34:31.218+08:00  INFO 21584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-01T21:34:33.312+08:00  INFO 7148 --- [main] com.example.demo.SpringBlogApplication   : Starting SpringBlogApplication using Java 17.0.11 with PID 7148 (D:\gitte\GitHub_Project\spring_blog\target\classes started by lenovo in D:\gitte\GitHub_Project\spring_blog)
+2024-09-01T21:34:33.315+08:00  INFO 7148 --- [main] com.example.demo.SpringBlogApplication   : The following 1 profile is active: "dev"
+2024-09-01T21:34:34.452+08:00  INFO 7148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-01T21:34:34.463+08:00  INFO 7148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-01T21:34:34.463+08:00  INFO 7148 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-09-01T21:34:34.533+08:00  INFO 7148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-01T21:34:34.533+08:00  INFO 7148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1165 ms
+2024-09-01T21:34:35.147+08:00  INFO 7148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-01T21:34:35.155+08:00  INFO 7148 --- [main] com.example.demo.SpringBlogApplication   : Started SpringBlogApplication in 2.294 seconds (process running for 2.677)
